@@ -29,6 +29,19 @@ Selber ausprobieren:
 [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
 
 
+## Chat Completion...
+
+Wir verwenden in diesem Workshop ChatCompletion.
+Und ChatCompletion __war__ stateless gewesen, bis 01. Okt. 2024 (gestern)...
+Aber es gibt jetzt "prompt caching":
+
+Allgemeine Info:
+https://platform.openai.com/docs/guides/prompt-caching
+
+Wie es funktioniert:
+https://platform.openai.com/docs/guides/prompt-caching
+
+
 
 ## Notebooks
 
