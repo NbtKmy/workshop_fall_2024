@@ -13,13 +13,19 @@ In diesem Workshop lernt man:
 ### VLM (GPT-4o-mini) und Structured Output
 [Notebook-beispiel](https://colab.research.google.com/drive/1JUBrPdwjDWxceEiQ_LTj65fLHzZ7k5vh?usp=sharing)
 
-
-### RAG
-
-### Andere LLM
+### VLM (GPT-4o-mini) und JSON-output
+[Notebook-Beispiel](https://colab.research.google.com/drive/1RPx9y5Vf0KqidHa_D-PjQ-Tnu1vgQUEv?usp=sharing)
 
 
-#### <img src="https://huggingface.co/allenai/MolmoE-1B-0924/resolve/main/molmo_logo.png" width="500">
+### GraphRAG mit Langchain
+[Notebook-Beispiel](https://colab.research.google.com/drive/1oqTaqJiOqm94kB2j-837Qnk47XeaiybX?usp=sharing)
+
+
+
+### Andere LLMs
+
+
+#### <img src="https://huggingface.co/allenai/MolmoE-1B-0924/resolve/main/molmo_logo.png" width="300">
 
 
 [Notebook-Beispiel](https://colab.research.google.com/drive/1XPUyZpQJkzsosHqDO45ZWIrmnvHi0cN1?usp=sharing)
@@ -49,7 +55,7 @@ Als ich MolmoE 1B auf Colab betätigt habe, hat das Model 34.4 GB RAM gebraucht:
 
 [Notebook-Beispiel mit Gemma](https://colab.research.google.com/drive/1kWYFrTCEpdEIULwSiJPhQEmnz9qY3IMW#scrollTo=DV7SZMtUCLXX)
 
-[Huggingfache]() bietet sehr viele KI-Models. Diese Model kann man über Huggingface-PipeLine geholt werden.
+[Huggingfache]() bietet sehr viele KI-Models an. Diese Model kann man über Huggingface-PipeLine geholt werden.
 
 1. Dafür zuerst einen Account von Huggingface erstellen
 1. Dann ein Access-Token von Huggingface erstellen (wie unten)
@@ -70,6 +76,24 @@ import os
 
 os.environ["HUGGING_FACE_HUB_TOKEN"] = userdata.get("[secretName von deinem Token]")
 ```
+
+#### LLM durch API (Mistral AI)
+
+[Notebook-Beispiel](https://colab.research.google.com/drive/1oefH9jG9DbBGMBK1sH2HDxMtWNFW4xWQ?usp=sharing)
+
+__Mistral AI?__
+
+>Mistral AI ist ein französisches Softwareunternehmen, das sich mit künstlicher Intelligenz (KI, englisch Artificial Intelligence, kurz AI) beschäftigt und unter den europäischen Unternehmen der Branche führend im Bereich Großer Sprachmodelle ist.
+Mistral AI entwickelt vor allem Open-Source-Sprachmodelle. Die nacheinander veröffentlichten Modelle Mistral 7B und Mixtral 8x7B wurden Ende 2023 unter Apache-2.0-Lizenz freigegeben. (Wikipedia)
+
+Mistral AI bietet auch API-Schnittstelle an:
+
+<img src="./img/mistralai.png" width="500">
+
+Dabei gibt es kostenfreie Option - Dabei kann die Datei für Training des Modells verwendet werden...
+
+
+
 
 
 
