@@ -100,4 +100,8 @@ Dabei gibt es kostenfreie Option - Dabei kann die Datei für Training des Modell
 
 ### Sonstige Anwendung
 
+Nachricht automatisch in Teams-Kanal pushen (mit Incoming Webhook)
+[Notebook-Beispiel](https://colab.research.google.com/drive/1fP1qlikDaWQaFBHAc7Y66E-u7VK-bnVB?usp=sharing)
+
+
 
