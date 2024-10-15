@@ -93,15 +93,53 @@ Mistral AI bietet auch API-Schnittstelle an:
 Dabei gibt es kostenfreie Option - Dabei kann die Datei für Training des Modells verwendet werden...
 
 
+#### Quantization
 
+[Notebook-Beispiel mit GGUF](https://colab.research.google.com/drive/1DwOWyrC6m5Yz7cwfKofodKaJZgaCdqiv?usp=sharing)
 
+Hier verwenden wir [quantized Llama](https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF).
 
+```
+(Antwort von Llama auf die Frage zu Quantization)
+A very interesting topic!
+
+Quantization of a Large Language Model (LLM) refers to the process of reducing the computational resources required to run a large neural network, such as a LLM, by converting its weights and activations to a lower precision data type.
+
+In traditional floating-point computing, LLMs are typically implemented using 32-bit or 16-bit floating-point numbers, which can store values with a very high degree of precision. However, these high-precision representations come at a cost:
+
+1. **Increased memory usage**: More bits mean more memory is required to store the weights and activations, which can lead to larger model sizes and increased memory usage.
+2. **Increased computational overhead**: Floating-point operations are generally slower and more expensive than integer arithmetic.
+
+Quantization reduces the precision of the model's weights and activations from floating-point to lower-precision integers, such as:
+
+* **Fixed-point**: Weights and activations are represented using fixed-point numbers, with a fixed number of bits for the mantissa (fractional part) and an integer exponent.
+* **Integer quantization**: Weights and activations are represented using integers, with a fixed number of bits for each component.
+* **Binary quantization**: Weights and activations are represented using binary values (0s and 1s) with some additional precision.
+
+By reducing the precision of the model, quantization:
+
+1. **Reduces memory usage**: Smaller weights and activations require less memory, making the model more efficient and easier to store.
+2. **Simplifies computations**: Integer arithmetic is generally faster and less expensive than floating-point operations, leading to faster inference and training.
+3. **Improves hardware efficiency**: Many modern hardware platforms, such as GPUs and TPUs, are designed to handle integer arithmetic more efficiently than floating-point operations.
+
+However, quantization can also lead to some trade-offs, such as:
+
+1. **Loss of precision**: Reducing the precision of the model's weights and activations can lead to decreased model accuracy and performance.
+2. **Increased risk of overflow and underflow**: With reduced precision, the model may be more susceptible to overflow or underflow errors, especially when dealing with large or very small values.
+
+To mitigate these trade-offs, researchers and practitioners use various quantization techniques, such as:
+
+1. **Weight quantization**: Only quantizing the weights, leaving the activations at full precision.
+2. **Activation quantization**: Only quantizing
+
+```
 
 
 ### Sonstige Anwendung
 
-Nachricht automatisch in Teams-Kanal pushen (mit Incoming Webhook)
-[Notebook-Beispiel](https://colab.research.google.com/drive/1fP1qlikDaWQaFBHAc7Y66E-u7VK-bnVB?usp=sharing)
+- Nachricht automatisch in Teams-Kanal pushen (mit Incoming Webhook)
+
+    [Notebook-Beispiel](https://colab.research.google.com/drive/1fP1qlikDaWQaFBHAc7Y66E-u7VK-bnVB?usp=sharing)
 
 
 
