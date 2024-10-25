@@ -15,4 +15,15 @@ __How to__
 
 Rasterdaten ist ... einfach gesagt digitales Bild mit Geodaten. Die Pixels in einer GeoTiff-File haben zusätzlcih spezielle Daten über die Georeferenz (Koordinaten und ggf. Höhendaten).
 
+## Holen wir selber ein DEM-Daten!
+
+https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1
+
+
+
+
+## Citation
+
+Dataset Citation: NASA Shuttle Radar Topography Mission (SRTM)(2013). Shuttle Radar Topography Mission (SRTM) Global.  Distributed by OpenTopography.  https://doi.org/10.5069/G9445JDF. Accessed: 2024-10-25
+
 
