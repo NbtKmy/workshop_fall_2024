@@ -13,8 +13,11 @@ Diese XLSX-Tabelle ist aus [Average age of the permanent resident population by 
 - zurich_buildings.geoparquet
 - zurich_division_areas.geoparquet
 - zurich_divisions.geoparquet
+- zurich_segment.geoparquet
 
 Diese Daten stammen aus Overture Maps.
+
+Overture Maps Foundation, overturemaps.org - Datum: 28.10.2024
 
 ## geoBoundaries
 

@@ -1,6 +1,6 @@
-# Step 1 - Verschiedene Daten und Karten einlesen
+# Verschiedene Daten und Karten einlesen
 
-## Step 1.1 Web map and data services (WM(T)S, XYZ tiles usw.) einlesen
+## 1. Web map and data services (WM(T)S, XYZ tiles usw.) einlesen
 
 
 ## XYZ-Tile (slippy map tilenames)
