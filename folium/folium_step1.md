@@ -1,4 +1,4 @@
-# Folium
+# Folium - Step 1
 
 ## Zuerst ... Github?
 
@@ -55,4 +55,6 @@ map.save("map_1.html")
 Dann findet ihr HTML-Datei in eurem Ordner. Dies könnt ihr auf euren PC herunterladen. Nach dem Herunterladen öffenen wir dieses HTML-File im Browser und dann in einem Text-Editor.
 Den Html-Code könnt ihr kopieren und ein neues File in euerem Repository erstellen und pasten!
 Nach ein Paar Minuten habt ihr eure eigene Webkarte publiziert!
+
+
 
