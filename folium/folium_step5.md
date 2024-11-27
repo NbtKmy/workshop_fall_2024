@@ -27,3 +27,7 @@ m.save("choropleth_bsp.html")
 
 Dann versuchen wir diese Karte ins Internet zu publizieren!
 
+
+Das letzte Beispiel: https://colab.research.google.com/drive/1gGfL1LDxURezP6g6tEoKc5zdXFPEYntL?usp=sharing
+
+
