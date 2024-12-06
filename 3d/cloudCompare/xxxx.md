@@ -20,3 +20,12 @@ https://ameblo.jp/arciwasa/entry-12652714120.html
 Scanned by Honma
 Licence: 
 CC-BY
+
+
+
+bsp_1.ply
+
+plugin > CSF-filter 
+Danach Schere-Symbol > segemnt > baum-reste entfernen
+
+danach weiter
