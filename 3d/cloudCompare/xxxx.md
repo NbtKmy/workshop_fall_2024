@@ -7,6 +7,7 @@ Provider: Virtual Museums of Małopolska
 Digitalisation: Regional Digitalisation Lab, Małopolska Institute of Culture in Kraków, Poland; “Virtual Museums of Małopolska” project
 License:
 CC0 Public DomainCC0 Public Domain
+Von dort aus GLB-File herunterladen...
 
 
 [野崎字　駐車場整備　墓碑](https://sketchfab.com/3d-models/1599d1822ead40e2987985015c28c983)
