@@ -15,9 +15,9 @@ Es gibt noch andere Apps, die 3D-Scan ermöglichen, aber in diesem Workshop scha
 
 
 Zuerst probieren wir einfach das App "Scaniverse" aus. D.h., wir besuchen die [Abgusssammlung der UZH](https://www.archaeologische-sammlung.uzh.ch/de/Ausstellungen/Dauerausstellung/Abgusssammlung.html) und nehmen dort ein Paar Abgussfiguren auf.
-(Zum Workshopsbeginn sammeln wir uns in DLS der UB um 10 Uhr. Dann gehen wir gemeinsam zur Abgusssammlung)
+(Zum Workshopsbeginn treffen wir uns in DLS der UB um 10 Uhr. Dann gehen wir gemeinsam zur Abgusssammlung)
 
-Danach kommt ein wenig technische Erläuterung zu 3D-Scan mit mobilen Geräten
+Danach kommt ein wenig technische Erläuterung zu 3D-Scan.
 
 Danach werden wir mit der Software CloudCompare arbeiten!
 
@@ -26,5 +26,5 @@ Danach werden wir mit der Software CloudCompare arbeiten!
 Für die Vorbereitung des Workshops möchte ich euch bitten; 
 
 1. das App Scaniverse auf eigenem Gerät installileren (sollte für iOS und Android funktionieren)
-1. Die Version "Latest stable release" der Software "CloudCompare ([hier der Link](https://www.danielgm.net/cc/))" auf eigenem Laptop installieren
+1. Die Version "Latest stable release" der Software "CloudCompare (stable version) ([hier der Link](https://www.danielgm.net/cc/))" auf eigenem Laptop installieren
 

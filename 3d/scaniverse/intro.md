@@ -50,6 +50,8 @@ https://doi.org/10.48550/arXiv.2003.08934
 
 ### LiDAR (Light Detection And Ranging)
 
+LiDAR ist eine Methode zur optischen Abstands- und Geschwindigkeitsmessung sowie zur Fernmessung. Die Methode ist nicht nur zum Zweck des 3D-Scans verwendet, sondern auch für die Abstandsmessung beim Fahrzeug und darüber hinaus in der Steuerung und Navigation autonomer Fahrzeuge eingesetzt. Deshalb gilt LiDAR im Allgemein nicht als reine 3D-Aufnahme-Technick. 
+Die Bezeichnung LiDAR in der oberen Tabelle bedeutet jedoch eine Scan-Methode, in der 3D-Modell mit Hilfe von LiDAR-Funktion des iPhones/iPads erstellt wird.
 
 
 ### 3DGS (3D Gaussian Splatting)
@@ -69,7 +71,29 @@ Ein Nachteil ist jedoch, dass das Training, wie auch bei NeRF, zeitaufwändig is
 
 ## 3D-Modell für Wissenschaft?
 
-3D-Modelle, die durch Fotogrametrie und LiDAR erzeugt werden, sind heute bereits in Forschung, Bauwesen und Vermessung verwendet. (s. [Swisstopo zu Fotogrametrie](https://www.swisstopo.admin.ch/de/fotogrammetrie))
+3D-Modelle, die durch Fotogrametrie oder LiDAR erzeugt werden, sind heute bereits in Forschung, Bauwesen und Vermessung verwendet. (s. [Swisstopo zu Fotogrametrie](https://www.swisstopo.admin.ch/de/fotogrammetrie) für Kartographie, [3D-Museum an der Uni Tübingen](https://www.unimuseum.uni-tuebingen.de/de/sammlungen/3d-museum) für Archäologie)
+
+![](../img/bsp1.png)
+
+```
+Dieses 3D-Modell (obj-file)  wurde durch Scaniverse erstellt
+title: 縄文時代陥し穴（SK3519J）（観測日2022年8月26日）
+location: 東京都
+license: CC BY 4.0 国分寺市
+```
+
+### Wie gut/schlecht ist LiDAR in mobilen Geräten?
+
+![](../img/bsp2.png)
+Aus YouTube-Video [12,9” iPad Pro 2020 Teardown: Wie sieht der LiDAR-Scanner aus?](https://youtu.be/xz6CExnGw9w?feature=shared) von iFixit
+
+Lichtstrahl von iPad Pro 2020 ist nicht so dicht wie die anderen LiDAR-Scan-Geräte. Ausserdem reicht die Strahlung höchstens 5m. Aber Preisunterschied ist dennnoch gross. Eva Lite von Artec 3D kostet z.B. 6700 EURO.
+
+Ausserdem hat iPhone/iPad nur GPS, um den Standort zu ermessen. Um noch genauere Standpunkte herausfinden, braucht man noch Ergänzung mit Hilfe von z.B. [GNSS](https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem).
+
+Kurz gesagt, kann iPhone/iPad-Gerät mit LiDAR für 3D-Aufnahme nur dann verwendet werden, wenn die Gegenstände genug klein sind und näher stehen.
+Auf der anderen Seite haben die solche mobilen Geräten Vorteil für die Ermessung der Innenseite eines Objektes mit kleiner Öffnung.  
+
 
 ## Warum Scaniverse?
 
