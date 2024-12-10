@@ -71,7 +71,7 @@ Ein Nachteil ist jedoch, dass das Training, wie auch bei NeRF, zeitaufwändig is
 
 ## 3D-Modell für Wissenschaft?
 
-3D-Modelle, die durch Fotogrametrie oder LiDAR erzeugt werden, sind heute bereits in Forschung, Bauwesen und Vermessung verwendet. (s. [Swisstopo zu Fotogrametrie](https://www.swisstopo.admin.ch/de/fotogrammetrie) für Kartographie, [3D-Museum an der Uni Tübingen](https://www.unimuseum.uni-tuebingen.de/de/sammlungen/3d-museum) für Archäologie)
+3D-Modelle, die durch Fotogrametrie oder LiDAR erzeugt werden, sind heute bereits in Forschung, Bauwesen und Vermessung verwendet. (s. [Swisstopo zu Fotogrametrie](https://www.swisstopo.admin.ch/de/fotogrammetrie) für Kartographie, [3D-Museum an der Uni Tübingen](https://www.unimuseum.uni-tuebingen.de/de/sammlungen/3d-museum) für Archäologie, Japanisches Ministerium für Land, Infrastruktur, Transport und Tourisumus (MLIT) lässt [seit 2024 iPhone-LiDAR als Vermessungsmittel](https://www.mlit.go.jp/tec/constplan/content/001733573.pdf) zu) 
 
 ![](../img/bsp1.png)
 
@@ -89,9 +89,9 @@ Aus YouTube-Video [12,9” iPad Pro 2020 Teardown: Wie sieht der LiDAR-Scanner a
 
 Lichtstrahl von iPad Pro 2020 ist nicht so dicht wie die anderen LiDAR-Scan-Geräte. Ausserdem reicht die Strahlung höchstens 5m. Aber Preisunterschied ist dennnoch gross. Eva Lite von Artec 3D kostet z.B. 6700 EURO.
 
-Ausserdem hat iPhone/iPad nur GPS, um den Standort zu ermessen. Um noch genauere Standpunkte herausfinden, braucht man noch Ergänzung mit Hilfe von z.B. [GNSS](https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem).
+Ausserdem hat iPhone/iPad nur GPS, um den Standort zu ermessen. Um noch genauere Standpunkte herausfinden, braucht man noch Ergänzung mit Hilfe von z.B. [GNSS](https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem) oder gar [RTK-GNSS](https://de.wikipedia.org/wiki/Echtzeitkinematik).
 
-Kurz gesagt, kann iPhone/iPad-Gerät mit LiDAR für 3D-Aufnahme nur dann verwendet werden, wenn die Gegenstände genug klein sind und näher stehen.
+Kurz gesagt, kann iPhone/iPad-Gerät mit LiDAR für 3D-Aufnahme nur dann verwendet werden, wenn die Gegenstände genug klein sind und näher stehen (10 Meter [Länge] x 5 Meter [Breite] x 3 Meter [Höhe] laut [Mobile Scan Association](https://mobilescan.jp/)).
 Auf der anderen Seite haben die solche mobilen Geräten Vorteil für die Ermessung der Innenseite eines Objektes mit kleiner Öffnung.  
 
 
