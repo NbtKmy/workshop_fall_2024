@@ -1,6 +1,6 @@
 # CloudCompare - Step 2
 
-Kontur & 
+Kontur & Querschnitt
 
 ## Kontur-Linien
 
